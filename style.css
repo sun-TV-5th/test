@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+header{
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+}
+header h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: underline;
+}
+.hero img{
+    width: 100%;
+}
+.about{
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+}
+.about h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.menu{
+    background-color: rgb(239, 226, 157);
+    padding: 30px;
+    text-align: center;
+}
+.menu h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.menu p{
+    margin-bottom: 20px;
+    text-align: center;
+}
+aside{
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+}
+aside h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: green;
+}
+aside p{
+    margin-bottom: 20px;
+    color: rgb(244, 51, 83);
+}
+aside img{
+    width: 150px;
+    margin-bottom: 20px;
+}
+aside .btn{
+    display: inline-block;
+    background-color: green;
+    padding: 20px 80px;
+    border: 5px solid white;
+    border-radius: 100px;
+    text-decoration: underline;
+}
+aside .btn:hover{
+    background-color: greenyellow;
+    font-size: large;
+}
+footer{
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}
